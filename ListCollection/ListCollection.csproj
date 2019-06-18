@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{00551146-BE41-46D9-B8A4-D665205A3DBA}</ProjectGuid>
+    <ProjectGuid>{2F1DAD8A-1886-40F7-81A1-67B146347F81}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ListLinq</RootNamespace>
-    <AssemblyName>ListLinq</AssemblyName>
+    <RootNamespace>ListCollection</RootNamespace>
+    <AssemblyName>ListCollection</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NewWorker.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
