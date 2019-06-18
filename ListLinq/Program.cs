@@ -35,6 +35,8 @@ namespace ListLinq
 			{
 				Console.WriteLine(e);
 			}
+
+			list.Gro
 		}
 	}
 }
