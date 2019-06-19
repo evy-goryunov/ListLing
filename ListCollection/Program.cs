@@ -13,8 +13,6 @@ namespace ListCollection
 
 			List<int> list = new List<int>();
 			Random rnd = new Random();
-			int r = rnd.Next(1, 10);
-
 			Console.WriteLine("Заданный массив данных");
 			for (int i = 0; i < 10; i++)
 			{
@@ -26,9 +24,9 @@ namespace ListCollection
 			}
 			Console.WriteLine("кол-во вхождений");
 
-			foreach (int val in list.Distinct())
+			foreach (int item in list.Distinct())
 			{
-				Console.WriteLine(val + " - " + list.Where(x => x == val).Count() + " шт");
+				Console.WriteLine(item + " --- " + list.Where(n => n == item).Count() + " шт.");
 			}
 		}
 	}
